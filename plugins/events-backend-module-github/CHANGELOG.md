@@ -1,5 +1,18 @@
 # @backstage/plugin-events-backend-module-github
 
+## 0.3.0
+
+### Minor Changes
+
+- 317ceb7: **BREAKING ALPHA**: Modules from `events-backend-module-github` and `events-backend-module-gitlab` are now exported as `default` instead of being a named export. In addition, they have been moved from `aplha` to `public`.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-plugin-api@1.2.1
+  - @backstage/config@1.3.2
+  - @backstage/plugin-events-node@0.4.9
+
 ## 0.2.18
 
 ### Patch Changes
